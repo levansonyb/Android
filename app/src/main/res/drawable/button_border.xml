@@ -1,0 +1,6 @@
+<!-- res/drawable/button_border.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/gray_dark"/> <!-- Nền nút màu xám đậm -->
+    <stroke android:width="4dp" android:color="#FFFFFF"/> <!-- Viền màu trắng -->
+    <corners android:radius="8dp"/> <!-- Bo góc tùy ý -->
+</shape>
