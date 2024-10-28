@@ -1,0 +1,8 @@
+<!-- res/values/colors.xml -->
+<resources>
+    <color name="colorPrimary">#D32F2F</color> <!-- Màu nền toolbar -->
+    <color name="colorPrimaryDark">#B71C1C</color> <!-- Màu thanh trạng thái (status bar) -->
+    <color name="colorAccent">#F44336</color> <!-- Màu của FAB và các yếu tố nhấn mạnh -->
+    <color name="textPrimary">#000000</color> <!-- Màu văn bản chính -->
+    <color name="textSecondary">#757575</color> <!-- Màu văn bản phụ -->
+</resources>
