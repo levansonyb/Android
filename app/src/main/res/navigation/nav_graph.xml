@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/studentListFragment">
+
+    <!-- Student List Fragment -->
+    <fragment
+        android:id="@+id/studentListFragment"
+        android:name="com.example.studentmanager.StudentListFragment"
+        android:label="Student List"
+        tools:layout="@layout/fragment_student_list">
+        <!-- Action to navigate to AddStudentFragment -->
+        <action
+            android:id="@+id/action_studentListFragment_to_addStudentFragment"
+            app:destination="@id/addStudentFragment" />
+        <!-- Action to navigate to EditStudentFragment -->
+        <action
+            android:id="@+id/action_studentListFragment_to_editStudentFragment"
+            app:destination="@id/editStudentFragment" />
+    </fragment>
+
+    <!-- Add Student Fragment -->
+    <fragment
+        android:id="@+id/addStudentFragment"
+        android:name="com.example.studentmanager.AddStudentFragment"
+        android:label="Add Student"
+        tools:layout="@layout/fragment_add_student" />
+
+    <!-- Edit Student Fragment -->
+    <fragment
+        android:id="@+id/editStudentFragment"
+        android:name="com.example.studentmanager.EditStudentFragment"
+        android:label="Edit Student"
+        tools:layout="@layout/fragment_edit_student" />
+
+</navigation>
